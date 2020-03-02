@@ -1,0 +1,706 @@
+2020-02-11 17:20:25,463 : ERROR : main :  : BatchExecutor :  :  : Workflow file 'home/knime/knime-workspace/KNIME_project.zip' is not a file.
+org.knime.core.node.workflow.BatchExecutor$IllegalOptionException: Workflow file 'home/knime/knime-workspace/KNIME_project.zip' is not a file.
+	at org.knime.core.node.workflow.BatchExecutor.handleCommandlineArgument(BatchExecutor.java:541)
+	at org.knime.core.node.workflow.BatchExecutor.parseConfigFromArguments(BatchExecutor.java:462)
+	at org.knime.core.node.workflow.BatchExecutor.processArguments(BatchExecutor.java:443)
+	at org.knime.core.node.workflow.BatchExecutor.<init>(BatchExecutor.java:413)
+	at org.knime.core.node.workflow.BatchExecutor.mainRun(BatchExecutor.java:670)
+	at org.knime.product.headless.KNIMEBatchApplication.runBatchExecutor(KNIMEBatchApplication.java:127)
+	at org.knime.product.headless.KNIMEBatchApplication.start(KNIMEBatchApplication.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+2020-02-11 17:20:47,584 : WARN  : main :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-11 17:20:47,988 : WARN  : main :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-11 17:20:49,118 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-11 17:40:47,816 : WARN  : main :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-11 17:40:48,203 : WARN  : main :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-11 17:40:49,046 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-12 15:30:04,745 : ERROR : main :  : BatchExecutor :  :  : Workflow directory '/home/knime/knime-workspace/LG_HelloVision/Develop/KNIME_project' is not a directory.
+org.knime.core.node.workflow.BatchExecutor$IllegalOptionException: Workflow directory '/home/knime/knime-workspace/LG_HelloVision/Develop/KNIME_project' is not a directory.
+	at org.knime.core.node.workflow.BatchExecutor.handleCommandlineArgument(BatchExecutor.java:549)
+	at org.knime.core.node.workflow.BatchExecutor.parseConfigFromArguments(BatchExecutor.java:462)
+	at org.knime.core.node.workflow.BatchExecutor.processArguments(BatchExecutor.java:443)
+	at org.knime.core.node.workflow.BatchExecutor.<init>(BatchExecutor.java:413)
+	at org.knime.core.node.workflow.BatchExecutor.mainRun(BatchExecutor.java:670)
+	at org.knime.product.headless.KNIMEBatchApplication.runBatchExecutor(KNIMEBatchApplication.java:127)
+	at org.knime.product.headless.KNIMEBatchApplication.start(KNIMEBatchApplication.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+2020-02-12 15:39:06,191 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Directory '/home/knime/knime_4.1.1/home/knime/output' of output file does not exist
+2020-02-12 15:39:06,330 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Directory '/home/knime/knime_4.1.1/home/knime/output' of output file does not exist
+2020-02-12 15:42:03,431 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Directory '/home/knime/knime_4.1.1/home/knime/output' of output file does not exist
+2020-02-12 15:42:03,567 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Directory '/home/knime/knime_4.1.1/home/knime/output' of output file does not exist
+2020-02-12 15:43:36,487 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/knime_4.1.1/../output/KNIME_Export.csv' exists and will be overwritten
+2020-02-12 15:43:36,612 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/knime_4.1.1/../output/KNIME_Export.csv' exists and will be overwritten
+2020-02-12 16:28:01,407 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-12 16:28:02,138 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 13:18:35,908 : ERROR : main :  : BatchExecutor :  :  : Workflow directory 'knime-workspace/KNIME_project' is not a directory.
+org.knime.core.node.workflow.BatchExecutor$IllegalOptionException: Workflow directory 'knime-workspace/KNIME_project' is not a directory.
+	at org.knime.core.node.workflow.BatchExecutor.handleCommandlineArgument(BatchExecutor.java:549)
+	at org.knime.core.node.workflow.BatchExecutor.parseConfigFromArguments(BatchExecutor.java:462)
+	at org.knime.core.node.workflow.BatchExecutor.processArguments(BatchExecutor.java:443)
+	at org.knime.core.node.workflow.BatchExecutor.<init>(BatchExecutor.java:413)
+	at org.knime.core.node.workflow.BatchExecutor.mainRun(BatchExecutor.java:670)
+	at org.knime.product.headless.KNIMEBatchApplication.runBatchExecutor(KNIMEBatchApplication.java:127)
+	at org.knime.product.headless.KNIMEBatchApplication.start(KNIMEBatchApplication.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+2020-02-13 13:18:57,079 : ERROR : main :  : BatchExecutor :  :  : Workflow directory '/home/knime/knime-workspace/KNIME_project' is not a directory.
+org.knime.core.node.workflow.BatchExecutor$IllegalOptionException: Workflow directory '/home/knime/knime-workspace/KNIME_project' is not a directory.
+	at org.knime.core.node.workflow.BatchExecutor.handleCommandlineArgument(BatchExecutor.java:549)
+	at org.knime.core.node.workflow.BatchExecutor.parseConfigFromArguments(BatchExecutor.java:462)
+	at org.knime.core.node.workflow.BatchExecutor.processArguments(BatchExecutor.java:443)
+	at org.knime.core.node.workflow.BatchExecutor.<init>(BatchExecutor.java:413)
+	at org.knime.core.node.workflow.BatchExecutor.mainRun(BatchExecutor.java:670)
+	at org.knime.product.headless.KNIMEBatchApplication.runBatchExecutor(KNIMEBatchApplication.java:127)
+	at org.knime.product.headless.KNIMEBatchApplication.start(KNIMEBatchApplication.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+2020-02-13 13:19:42,781 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 13:19:42,912 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 14:04:50,443 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 14:04:50,586 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 14:32:15,801 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 14:32:15,922 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 16:17:12,152 : ERROR : main :  : BatchExecutor :  :  : Workflow directory '/home/knime/knime-workspace/KNIME_project' is not a directory.
+org.knime.core.node.workflow.BatchExecutor$IllegalOptionException: Workflow directory '/home/knime/knime-workspace/KNIME_project' is not a directory.
+	at org.knime.core.node.workflow.BatchExecutor.handleCommandlineArgument(BatchExecutor.java:549)
+	at org.knime.core.node.workflow.BatchExecutor.parseConfigFromArguments(BatchExecutor.java:462)
+	at org.knime.core.node.workflow.BatchExecutor.processArguments(BatchExecutor.java:443)
+	at org.knime.core.node.workflow.BatchExecutor.<init>(BatchExecutor.java:413)
+	at org.knime.core.node.workflow.BatchExecutor.mainRun(BatchExecutor.java:670)
+	at org.knime.product.headless.KNIMEBatchApplication.runBatchExecutor(KNIMEBatchApplication.java:127)
+	at org.knime.product.headless.KNIMEBatchApplication.start(KNIMEBatchApplication.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+2020-02-13 16:18:19,810 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 16:18:20,554 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 17:57:10,176 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-13 17:57:10,299 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-17 09:20:12,217 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-17 09:20:12,909 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 16:27:07,889 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 16:27:08,711 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 16:51:10,886 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 16:51:11,012 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 17:29:33,530 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 17:31:15,904 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 17:32:31,583 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 17:33:08,075 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 17:35:52,694 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 17:46:16,167 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 17:57:56,558 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 18:00:58,674 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 18:07:49,054 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 18:10:55,876 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 19:12:55,292 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 19:13:41,440 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 19:13:49,324 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 19:16:29,443 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 19:20:01,968 : ERROR : KNIME-Worker-0-POSGEN Database Connector 0:1 :  : Node : POSGEN Database Connector : 0:1 : Execute failed: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+java.sql.SQLException: Could not create connection to database :: oracle.jdbc.driver.OracleDriver
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:99)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:571)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:212)
+	at org.knime.core.node.port.database.DatabaseConnectionSettings.createConnection(DatabaseConnectionSettings.java:474)
+	at org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeModel.execute(JDBCConnectorNodeModel.java:89)
+	... 13 more
+Caused by: org.knime.core.node.InvalidSettingsException: Could not find database driver "oracle.jdbc.driver.OracleDriver", reason: oracle.jdbc.driver.OracleDriver
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:190)
+	at org.knime.core.node.port.database.RegisteredDriversConnectionFactory.getDriver(RegisteredDriversConnectionFactory.java:100)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.getConnection(CachedConnectionFactory.java:210)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getWrappedDriver(DatabaseDriverLoader.java:380)
+	at org.knime.core.node.port.database.DatabaseDriverLoader.getDriver(DatabaseDriverLoader.java:187)
+	... 17 more
+2020-02-18 19:25:32,787 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 19:25:32,913 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 19:27:48,914 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 19:27:49,059 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 19:53:21,047 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 19:53:21,183 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 19:56:19,130 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 19:56:19,298 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 20:17:44,821 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 20:17:44,964 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 21:17:35,260 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 21:17:35,391 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 21:19:10,760 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/knime_4.1.1/c:\home\knime\output\KNIME_Export.csv' exists and will be overwritten
+2020-02-18 21:19:10,991 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/knime_4.1.1/c:\home\knime\output\KNIME_Export.csv' exists and will be overwritten
+2020-02-18 21:43:56,292 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-18 21:43:56,440 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-25 14:23:51,982 : WARN  : main :  : BatchExecutor :  :  : The workflow variable is potentially unused (not defined in workflow): "executer" (STRING)
+2020-02-25 14:23:53,922 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-25 14:23:54,727 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-25 15:28:57,744 : WARN  : main :  : BatchExecutor :  :  : The workflow variable is potentially unused (not defined in workflow): "executer" (STRING)
+2020-02-25 15:28:58,664 : WARN  : KNIME-Worker-1-Database Reader (legacy) 0:3 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-25 15:28:58,783 : WARN  : KNIME-Worker-1-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-25 15:41:42,420 : WARN  : main :  : BatchExecutor :  :  : The workflow variable is potentially unused (not defined in workflow): "executer" (STRING)
+2020-02-25 15:41:49,867 : WARN  : main :  : BatchExecutor :  :  : The workflow variable is potentially unused (not defined in workflow): "executer" (STRING)
+2020-02-25 15:41:50,858 : WARN  : KNIME-Worker-2-Database Reader (legacy) 0:4 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten
+2020-02-25 15:41:50,975 : WARN  : KNIME-Worker-2-Sorter 0:13 :  : Node : CSV Writer : 0:9 : Output file '/home/knime/output/KNIME_Export.csv' exists and will be overwritten

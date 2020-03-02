@@ -1,0 +1,95 @@
+
+{
+    "version": "4.1.1.v202002041125",
+    "created": "2020-02-11 17:20",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.ext.posgen.node.database.connector.JDBCConnectorNodeFactory#POSGEN Database Connector",
+                "nrexecs": 28,
+                "nrfails": 15,
+                "exectime": 6625,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.database.DBReaderNodeFactory#Database Reader (legacy)",
+                "nrexecs": 56,
+                "nrfails": 0,
+                "exectime": 34105,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner",
+                "nrexecs": 28,
+                "nrfails": 0,
+                "exectime": 943,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.time.node.convert.oldtonew.OldToNewTimeNodeFactory#Legacy Date&Time to Date&Time",
+                "nrexecs": 28,
+                "nrfails": 0,
+                "exectime": 325,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.time.node.convert.datetimetostring.DateTimeToStringNodeFactory#Date&Time to String",
+                "nrexecs": 28,
+                "nrfails": 0,
+                "exectime": 633,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 28,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.posgen.node.exchange.column.ExHangulColNodeFactory#Column Name Change(ENG>KOR)",
+                "nrexecs": 28,
+                "nrfails": 0,
+                "exectime": 840,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter",
+                "nrexecs": 28,
+                "nrfails": 0,
+                "exectime": 313,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.csvwriter.CSVWriterNodeFactory#CSV Writer",
+                "nrexecs": 26,
+                "nrfails": 0,
+                "exectime": 318,
+                "nrcreated": 0,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 2366,
+    "workflowsOpened": 43,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 45,
+    "lastApplicationID": "org.knime.product.KNIME_BATCH_APPLICATION",
+    "timeSinceLastStart": 2665,
+    "crashes": 0,
+    "properlyShutDown": true
+}

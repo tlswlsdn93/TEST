@@ -1,0 +1,60 @@
+!SESSION 2020-02-13 16:17:08.874 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/KNIME_project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -consolelog -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/KNIME_project
+
+!ENTRY org.eclipse.equinox.registry 2 0 2020-02-13 16:17:09.922
+!MESSAGE The extensions and extension-points from the bundle "org.apache.batik.ext.awt.knime_fragment" are ignored. The host bundle "org.apache.batik.ext.awt" is not marked as singleton. 
+!SESSION 2020-02-17 09:20:03.414 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ko_KR
+Framework arguments:  -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -consolelog -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project
+
+!ENTRY org.eclipse.equinox.registry 2 0 2020-02-17 09:20:05.654
+!MESSAGE The extensions and extension-points from the bundle "org.apache.batik.ext.awt.knime_fragment" are ignored. The host bundle "org.apache.batik.ext.awt" is not marked as singleton. 
+!SESSION 2020-02-18 17:29:23.309 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ko_KR
+Framework arguments:  -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -consolelog -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project
+
+!ENTRY org.eclipse.equinox.registry 2 0 2020-02-18 17:29:26.653
+!MESSAGE The extensions and extension-points from the bundle "org.apache.batik.ext.awt.knime_fragment" are ignored. The host bundle "org.apache.batik.ext.awt" is not marked as singleton. 
+!SESSION 2020-02-18 19:25:28.332 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ko_KR
+Framework arguments:  -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -consolelog -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project
+
+!ENTRY org.eclipse.equinox.registry 2 0 2020-02-18 19:25:28.858
+!MESSAGE The extensions and extension-points from the bundle "org.apache.batik.ext.awt.knime_fragment" are ignored. The host bundle "org.apache.batik.ext.awt" is not marked as singleton. 
+!SESSION 2020-02-25 14:23:41.539 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project -workflow.variable=executer,gmjtw123@posgen.net,String
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -consolelog -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project -workflow.variable=executer,gmjtw123@posgen.net,String
+
+!ENTRY org.eclipse.equinox.registry 2 0 2020-02-25 14:23:45.406
+!MESSAGE The extensions and extension-points from the bundle "org.apache.batik.ext.awt.knime_fragment" are ignored. The host bundle "org.apache.batik.ext.awt" is not marked as singleton. 
+!SESSION 2020-02-25 15:41:45.108 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project -workflow.variable=executer,gmjtw123@posgen.net,String
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -consolelog -reset -nosave -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir=/home/knime/knime-workspace/LG_HelloVision_Develop/KNIME_project -workflow.variable=executer,gmjtw123@posgen.net,String
+
+!ENTRY org.eclipse.equinox.registry 2 0 2020-02-25 15:41:46.370
+!MESSAGE The extensions and extension-points from the bundle "org.apache.batik.ext.awt.knime_fragment" are ignored. The host bundle "org.apache.batik.ext.awt" is not marked as singleton. 
